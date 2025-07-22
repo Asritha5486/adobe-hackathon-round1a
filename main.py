@@ -48,13 +48,22 @@ def extract_outline(pdf_path, model, encoder):
     return outline
 
 def extract_title(pdf_path):
-    with pdfplumber.open(pdf_path) as pdf:
-        first_page = pdf.pages[0]
-        words = first_page.extract_words(use_text_flow=True)
-        if words:
-            title_line = max(words, key=lambda w: float(w["size"]))
-            return title_line["text"]
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            first_page = pdf.pages[0]
+            words = first_page.extract_words(use_text_flow=True)
+            if words:
+                valid_words = [w for w in words if "size" in w and isinstance(w["size"], (int, float, str))]
+                if not valid_words:
+                    return "Untitled"
+                title_line = max(valid_words, key=lambda w: float(w["size"]))
+                return title_line["text"]
+    except Exception as e:
+        print("⚠️ Skipping title extraction due to error:", e)
+        return "Untitled"
+
     return os.path.basename(pdf_path).replace(".pdf", "")
+
 
 def process_all_pdfs(input_dir, output_dir, model, encoder):
     for filename in os.listdir(input_dir):
