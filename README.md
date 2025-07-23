@@ -73,5 +73,6 @@ Each output JSON file contains:
 
 ## 🙋‍♀️ Team
 
-Asritha Chunduri    
+Asritha Chunduri  
+chasritha33@gmail.com
 GitHub: [Asritha5486](https://github.com/Asritha5486)
