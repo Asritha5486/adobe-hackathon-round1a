@@ -1,5 +1,5 @@
 {
-  "title": "Untitled",
+  "title": "Application",
   "outline": [
     {
       "level": "H3",
@@ -29,11 +29,6 @@
     {
       "level": "H3",
       "text": "PAY + SI + NPA",
-      "page": 1
-    },
-    {
-      "level": "H3",
-      "text": "Whether permanent or temporary",
       "page": 1
     },
     {
@@ -132,11 +127,6 @@
       "page": 1
     },
     {
-      "level": "H3",
-      "text": "Persons in respect of whom LTC is proposed to be availed.",
-      "page": 1
-    },
-    {
       "level": "H1",
       "text": "S.No",
       "page": 1
@@ -162,11 +152,6 @@
       "page": 1
     },
     {
-      "level": "H3",
-      "text": "Amount of advance required.",
-      "page": 1
-    },
-    {
       "level": "H1",
       "text": "Rs.",
       "page": 1
@@ -174,11 +159,6 @@
     {
       "level": "H1",
       "text": "Date",
-      "page": 1
-    },
-    {
-      "level": "H1",
-      "text": "Signature of Government Servant.",
       "page": 1
     }
   ]

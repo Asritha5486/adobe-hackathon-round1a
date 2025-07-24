@@ -1,5 +1,5 @@
 {
-  "title": "Untitled",
+  "title": "Overview",
   "outline": [
     {
       "level": "H1",
@@ -7,18 +7,8 @@
       "page": 1
     },
     {
-      "level": "H2",
-      "text": "Foundation Level Extensions",
-      "page": 1
-    },
-    {
       "level": "H1",
       "text": "Version 1.0",
-      "page": 1
-    },
-    {
-      "level": "H2",
-      "text": "International Software Testing Qualifications Board",
       "page": 1
     },
     {
@@ -42,11 +32,6 @@
       "page": 2
     },
     {
-      "level": "H3",
-      "text": "Foundation Level Extension \u2013",
-      "page": 2
-    },
-    {
       "level": "H1",
       "text": "Agile Tester",
       "page": 2
@@ -63,17 +48,12 @@
     },
     {
       "level": "H3",
-      "text": "Copyright \u00a9 International Software Testing Qualifications Board (hereinafter called ISTQB\u00ae).",
+      "text": "Copyright © International Software Testing Qualifications Board (hereinafter called ISTQB®).",
       "page": 2
     },
     {
       "level": "H1",
       "text": "Version 2014",
-      "page": 2
-    },
-    {
-      "level": "H3",
-      "text": "Page 2 of 12",
       "page": 2
     },
     {
@@ -83,7 +63,7 @@
     },
     {
       "level": "H3",
-      "text": "\u00a9 International Software Testing Qualifications Board",
+      "text": "© International Software Testing Qualifications Board",
       "page": 2
     },
     {
@@ -104,11 +84,6 @@
     {
       "level": "H1",
       "text": "Software Testing",
-      "page": 3
-    },
-    {
-      "level": "H3",
-      "text": "Foundation Level Extension \u2013",
       "page": 3
     },
     {
@@ -162,11 +137,6 @@
       "page": 3
     },
     {
-      "level": "H3",
-      "text": "WG reviewed and confirmed",
-      "page": 3
-    },
-    {
       "level": "H1",
       "text": "0.3",
       "page": 3
@@ -174,11 +144,6 @@
     {
       "level": "H1",
       "text": "6 NOV 2013",
-      "page": 3
-    },
-    {
-      "level": "H3",
-      "text": "amended population and diagram",
       "page": 3
     },
     {
@@ -232,99 +197,14 @@
       "page": 3
     },
     {
-      "level": "H3",
-      "text": "Page 3 of 12",
-      "page": 3
-    },
-    {
       "level": "H1",
       "text": "May 31, 2014",
       "page": 3
     },
     {
       "level": "H3",
-      "text": "\u00a9 International Software Testing Qualifications Board",
+      "text": "© International Software Testing Qualifications Board",
       "page": 3
-    },
-    {
-      "level": "H1",
-      "text": "..........................................................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "........................................................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "............................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "...............................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": ".....................................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "............................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "...................................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "...................................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "...................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "......................................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": ".........................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": ".................................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "....................................................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "..........................................................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": ".............................................................................................................................",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": ".......................................................................................................",
-      "page": 4
     },
     {
       "level": "H1",
@@ -339,11 +219,6 @@
     {
       "level": "H1",
       "text": "Software Testing",
-      "page": 4
-    },
-    {
-      "level": "H3",
-      "text": "Foundation Level Extension \u2013",
       "page": 4
     },
     {
@@ -369,11 +244,6 @@
     {
       "level": "H1",
       "text": "Revision History",
-      "page": 4
-    },
-    {
-      "level": "H1",
-      "text": "Table of Contents",
       "page": 4
     },
     {
@@ -403,11 +273,6 @@
     },
     {
       "level": "H1",
-      "text": "Career Paths for Testers",
-      "page": 4
-    },
-    {
-      "level": "H1",
       "text": "2.3",
       "page": 4
     },
@@ -432,11 +297,6 @@
       "page": 4
     },
     {
-      "level": "H3",
-      "text": "Structure and Course Duration",
-      "page": 4
-    },
-    {
       "level": "H1",
       "text": "2.6",
       "page": 4
@@ -448,7 +308,7 @@
     },
     {
       "level": "H3",
-      "text": "Overview of the Foundation Level Extension \u2013",
+      "text": "Overview of the Foundation Level Extension –",
       "page": 4
     },
     {
@@ -498,17 +358,7 @@
     },
     {
       "level": "H1",
-      "text": "Documents and Web Sites",
-      "page": 4
-    },
-    {
-      "level": "H1",
       "text": "Version 2014",
-      "page": 4
-    },
-    {
-      "level": "H3",
-      "text": "Page 4 of 12",
       "page": 4
     },
     {
@@ -518,7 +368,7 @@
     },
     {
       "level": "H3",
-      "text": "\u00a9 International Software Testing Qualifications Board",
+      "text": "© International Software Testing Qualifications Board",
       "page": 4
     },
     {
@@ -534,11 +384,6 @@
     {
       "level": "H1",
       "text": "Software Testing",
-      "page": 5
-    },
-    {
-      "level": "H3",
-      "text": "Foundation Level Extension \u2013",
       "page": 5
     },
     {
@@ -562,18 +407,8 @@
       "page": 5
     },
     {
-      "level": "H1",
-      "text": "Foundation Level Working Group.",
-      "page": 5
-    },
-    {
       "level": "H3",
       "text": "Internal Reviewers: Mette Bruhn-Pedersen, Christopher Clements, Alessandro Collino, Debra",
-      "page": 5
-    },
-    {
-      "level": "H3",
-      "text": "P\u00e4\u00e4kk\u00f6nen, Meile Posthuma, Gabor Puhalla, Lloyd Roden, Marko Rytk\u00f6nen, Monika Stoecklein-Olsen,",
       "page": 5
     },
     {
@@ -603,7 +438,7 @@
     },
     {
       "level": "H1",
-      "text": "O\u2019Dea,",
+      "text": "O’Dea,",
       "page": 5
     },
     {
@@ -637,18 +472,13 @@
       "page": 5
     },
     {
-      "level": "H3",
-      "text": "Page 5 of 12",
-      "page": 5
-    },
-    {
       "level": "H1",
       "text": "May 31, 2014",
       "page": 5
     },
     {
       "level": "H3",
-      "text": "\u00a9 International Software Testing Qualifications Board",
+      "text": "© International Software Testing Qualifications Board",
       "page": 5
     },
     {
@@ -672,18 +502,8 @@
       "page": 6
     },
     {
-      "level": "H3",
-      "text": "Foundation Level Extension \u2013",
-      "page": 6
-    },
-    {
       "level": "H1",
       "text": "Agile Tester",
-      "page": 6
-    },
-    {
-      "level": "H2",
-      "text": "Introduction to the Foundation Level Extensions",
       "page": 6
     },
     {
@@ -708,11 +528,6 @@
     },
     {
       "level": "H1",
-      "text": "Agile Tester",
-      "page": 6
-    },
-    {
-      "level": "H1",
       "text": "level.",
       "page": 6
     },
@@ -722,18 +537,13 @@
       "page": 6
     },
     {
-      "level": "H3",
-      "text": "Page 6 of 12",
-      "page": 6
-    },
-    {
       "level": "H1",
       "text": "May 31, 2014",
       "page": 6
     },
     {
       "level": "H3",
-      "text": "\u00a9 International Software Testing Qualifications Board",
+      "text": "© International Software Testing Qualifications Board",
       "page": 6
     },
     {
@@ -757,23 +567,13 @@
       "page": 7
     },
     {
-      "level": "H3",
-      "text": "Foundation Level Extension \u2013",
-      "page": 7
-    },
-    {
       "level": "H1",
       "text": "Agile Tester",
       "page": 7
     },
     {
-      "level": "H2",
-      "text": "Introduction to Foundation Level Agile Tester Extension",
-      "page": 7
-    },
-    {
       "level": "H3",
-      "text": "The certification for Foundation Level Extension \u2013",
+      "text": "The certification for Foundation Level Extension –",
       "page": 7
     },
     {
@@ -793,12 +593,7 @@
     },
     {
       "level": "H3",
-      "text": "The Foundation Level Extension \u2013",
-      "page": 7
-    },
-    {
-      "level": "H3",
-      "text": "Agile Tester qualification is aimed at four main groups of professionals:",
+      "text": "The Foundation Level Extension –",
       "page": 7
     },
     {
@@ -818,12 +613,7 @@
     },
     {
       "level": "H1",
-      "text": "tester\u2019s",
-      "page": 7
-    },
-    {
-      "level": "H3",
-      "text": "role in an Agile",
+      "text": "tester’s",
       "page": 7
     },
     {
@@ -843,11 +633,6 @@
     },
     {
       "level": "H3",
-      "text": "This Foundation Level Extension \u2013",
-      "page": 7
-    },
-    {
-      "level": "H3",
       "text": "Agile Tester certification may also be appropriate for anyone who",
       "page": 7
     },
@@ -863,17 +648,12 @@
     },
     {
       "level": "H1",
-      "text": "2.2 Career Paths for Testers",
-      "page": 7
-    },
-    {
-      "level": "H1",
       "text": "an Agile project.",
       "page": 7
     },
     {
       "level": "H3",
-      "text": "People possessing an ISTQB Foundation Level Extension \u2013",
+      "text": "People possessing an ISTQB Foundation Level Extension –",
       "page": 7
     },
     {
@@ -902,18 +682,13 @@
       "page": 7
     },
     {
-      "level": "H3",
-      "text": "Page 7 of 12",
-      "page": 7
-    },
-    {
       "level": "H1",
       "text": "May 31, 2014",
       "page": 7
     },
     {
       "level": "H3",
-      "text": "\u00a9 International Software Testing Qualifications Board",
+      "text": "© International Software Testing Qualifications Board",
       "page": 7
     },
     {
@@ -937,11 +712,6 @@
       "page": 8
     },
     {
-      "level": "H3",
-      "text": "Foundation Level Extension \u2013",
-      "page": 8
-    },
-    {
       "level": "H1",
       "text": "Agile Tester",
       "page": 8
@@ -958,11 +728,6 @@
     },
     {
       "level": "H3",
-      "text": "To be able to participate in a Foundation Level Extension \u2013",
-      "page": 8
-    },
-    {
-      "level": "H3",
       "text": "Agile Tester exam, candidates must have",
       "page": 8
     },
@@ -972,18 +737,8 @@
       "page": 8
     },
     {
-      "level": "H1",
-      "text": "2.5 Structure and Course Duration",
-      "page": 8
-    },
-    {
       "level": "H3",
-      "text": "The Foundation Level Extension \u2013",
-      "page": 8
-    },
-    {
-      "level": "H3",
-      "text": "Agile Tester syllabus has no shared or common elements with the",
+      "text": "The Foundation Level Extension –",
       "page": 8
     },
     {
@@ -1022,18 +777,13 @@
       "page": 8
     },
     {
-      "level": "H3",
-      "text": "Page 8 of 12",
-      "page": 8
-    },
-    {
       "level": "H1",
       "text": "May 31, 2014",
       "page": 8
     },
     {
       "level": "H3",
-      "text": "\u00a9 International Software Testing Qualifications Board",
+      "text": "© International Software Testing Qualifications Board",
       "page": 8
     },
     {
@@ -1054,11 +804,6 @@
     {
       "level": "H1",
       "text": "Software Testing",
-      "page": 9
-    },
-    {
-      "level": "H3",
-      "text": "Foundation Level Extension \u2013",
       "page": 9
     },
     {
@@ -1072,18 +817,8 @@
       "page": 9
     },
     {
-      "level": "H3",
-      "text": "in the industry. This information is not examinable under this syllabus.",
-      "page": 9
-    },
-    {
       "level": "H1",
       "text": "Version 2014",
-      "page": 9
-    },
-    {
-      "level": "H3",
-      "text": "Page 9 of 12",
       "page": 9
     },
     {
@@ -1093,7 +828,7 @@
     },
     {
       "level": "H3",
-      "text": "\u00a9 International Software Testing Qualifications Board",
+      "text": "© International Software Testing Qualifications Board",
       "page": 9
     },
     {
@@ -1114,21 +849,6 @@
     {
       "level": "H1",
       "text": "Software Testing",
-      "page": 10
-    },
-    {
-      "level": "H3",
-      "text": "Foundation Level Extension \u2013",
-      "page": 10
-    },
-    {
-      "level": "H1",
-      "text": "Agile Tester",
-      "page": 10
-    },
-    {
-      "level": "H2",
-      "text": "Overview of the Foundation Level Extension \u2013",
       "page": 10
     },
     {
@@ -1148,17 +868,12 @@
     },
     {
       "level": "H1",
-      "text": "Extension \u2013",
+      "text": "Extension –",
       "page": 10
     },
     {
       "level": "H1",
       "text": "Agile Tester certification.",
-      "page": 10
-    },
-    {
-      "level": "H1",
-      "text": "An Agile Tester can\u2026",
       "page": 10
     },
     {
@@ -1177,11 +892,6 @@
       "page": 10
     },
     {
-      "level": "H3",
-      "text": "Adapt existing testing experience and knowledge to Agile values and principles.",
-      "page": 10
-    },
-    {
       "level": "H1",
       "text": "AFM3",
       "page": 10
@@ -1194,11 +904,6 @@
     {
       "level": "H1",
       "text": "AFM4",
-      "page": 10
-    },
-    {
-      "level": "H3",
-      "text": "Apply relevant methods and techniques for testing in an Agile project.",
       "page": 10
     },
     {
@@ -1232,18 +937,13 @@
       "page": 10
     },
     {
-      "level": "H3",
-      "text": "Work and share information with other team members using effective communication",
-      "page": 10
-    },
-    {
       "level": "H1",
       "text": "styles and channels.",
       "page": 10
     },
     {
       "level": "H3",
-      "text": "In general, a Certified Tester Foundation Level \u2013",
+      "text": "In general, a Certified Tester Foundation Level –",
       "page": 10
     },
     {
@@ -1273,27 +973,12 @@
     },
     {
       "level": "H3",
-      "text": "early and frequent feedback.",
-      "page": 10
-    },
-    {
-      "level": "H3",
       "text": "The tester should recall Agile software development approaches.",
       "page": 10
     },
     {
       "level": "H1",
       "text": "business representatives.",
-      "page": 10
-    },
-    {
-      "level": "H3",
-      "text": "improvement in Agile projects.",
-      "page": 10
-    },
-    {
-      "level": "H3",
-      "text": "The tester should understand the use and purpose of continuous integration.",
       "page": 10
     },
     {
@@ -1307,18 +992,13 @@
       "page": 10
     },
     {
-      "level": "H3",
-      "text": "Page 10 of 12",
-      "page": 10
-    },
-    {
       "level": "H1",
       "text": "May 31, 2014",
       "page": 10
     },
     {
       "level": "H3",
-      "text": "\u00a9 International Software Testing Qualifications Board",
+      "text": "© International Software Testing Qualifications Board",
       "page": 10
     },
     {
@@ -1334,11 +1014,6 @@
     {
       "level": "H1",
       "text": "Software Testing",
-      "page": 11
-    },
-    {
-      "level": "H3",
-      "text": "Foundation Level Extension \u2013",
       "page": 11
     },
     {
@@ -1373,22 +1048,12 @@
     },
     {
       "level": "H3",
-      "text": "testing in an Agile project, including test progress and product quality.",
-      "page": 11
-    },
-    {
-      "level": "H3",
       "text": "Chapter 3: Agile Testing Methods, Techniques, and Tools",
       "page": 11
     },
     {
       "level": "H3",
       "text": "driven development, and behavior-driven development.",
-      "page": 11
-    },
-    {
-      "level": "H3",
-      "text": "levels and testing types.",
       "page": 11
     },
     {
@@ -1417,18 +1082,13 @@
       "page": 11
     },
     {
-      "level": "H3",
-      "text": "Page 11 of 12",
-      "page": 11
-    },
-    {
       "level": "H1",
       "text": "May 31, 2014",
       "page": 11
     },
     {
       "level": "H3",
-      "text": "\u00a9 International Software Testing Qualifications Board",
+      "text": "© International Software Testing Qualifications Board",
       "page": 11
     },
     {
@@ -1452,11 +1112,6 @@
       "page": 12
     },
     {
-      "level": "H3",
-      "text": "Foundation Level Extension \u2013",
-      "page": 12
-    },
-    {
       "level": "H1",
       "text": "Agile Tester",
       "page": 12
@@ -1477,23 +1132,8 @@
       "page": 12
     },
     {
-      "level": "H3",
-      "text": "is a registered trademark of the International Software Testing Qualifications Board",
-      "page": 12
-    },
-    {
-      "level": "H1",
-      "text": "4.2 Documents and Web Sites",
-      "page": 12
-    },
-    {
       "level": "H1",
       "text": "Identifier",
-      "page": 12
-    },
-    {
-      "level": "H1",
-      "text": "Reference",
       "page": 12
     },
     {
@@ -1507,18 +1147,8 @@
       "page": 12
     },
     {
-      "level": "H3",
-      "text": "to this website for the latest ISTQB Glossary and Syllabi. (www.istqb.org)",
-      "page": 12
-    },
-    {
       "level": "H1",
       "text": "Version 2014",
-      "page": 12
-    },
-    {
-      "level": "H3",
-      "text": "Page 12 of 12",
       "page": 12
     },
     {
@@ -1528,7 +1158,7 @@
     },
     {
       "level": "H3",
-      "text": "\u00a9 International Software Testing Qualifications Board",
+      "text": "© International Software Testing Qualifications Board",
       "page": 12
     }
   ]

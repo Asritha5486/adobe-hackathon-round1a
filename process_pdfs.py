@@ -1,9 +1,10 @@
 import os
 import json
-import fitz
+import fitz  # PyMuPDF
 import pdfplumber
 import joblib
 import string
+from difflib import SequenceMatcher
 
 def load_model():
     model = joblib.load("heading_model.joblib")
@@ -17,6 +18,17 @@ def extract_features(text, size, font):
         "caps": sum(1 for c in text if c.isupper()) / max(len(text), 1),
         "length": len(text.split())
     }
+
+def is_similar(a, b):
+    return SequenceMatcher(None, a.lower(), b.lower()).ratio() > 0.9
+
+def deduplicate_outline(outline):
+    clean = []
+    for entry in outline:
+        if any(is_similar(entry["text"], prev["text"]) and entry["page"] == prev["page"] for prev in clean):
+            continue
+        clean.append(entry)
+    return clean
 
 def extract_outline(pdf_path, model, encoder):
     doc = fitz.open(pdf_path)
@@ -33,19 +45,33 @@ def extract_outline(pdf_path, model, encoder):
                     size = span["size"]
                     font = span["font"]
 
-                    if len(text) < 3 or text.isspace():
+                    # Skip junk or meaningless text
+                    if (
+                        len(text) < 3 or 
+                        text.isspace() or 
+                        all(c in string.punctuation for c in text) or
+                        text.lower().startswith("page") or 
+                        text.count('.') > 5 or 
+                        text.lower().endswith("of")
+                    ):
                         continue
 
                     features = extract_features(text, size, font)
-                    pred = encoder.inverse_transform(model.predict([features]))[0]
 
-                    if pred in ["H1", "H2", "H3"]:
+                    # Predict and filter by confidence
+                    proba = model.predict_proba([features])[0]
+                    pred_idx = model.predict([features])[0]
+                    pred_label = encoder.inverse_transform([pred_idx])[0]
+                    confidence = max(proba)
+
+                    if pred_label in ["H1", "H2", "H3"] and confidence > 0.6:
                         outline.append({
-                            "level": pred,
+                            "level": pred_label,
                             "text": text,
                             "page": page_num
                         })
-    return outline
+
+    return deduplicate_outline(outline)
 
 def extract_title(pdf_path):
     try:
@@ -53,17 +79,15 @@ def extract_title(pdf_path):
             first_page = pdf.pages[0]
             words = first_page.extract_words(use_text_flow=True)
             if words:
-                valid_words = [w for w in words if "size" in w and isinstance(w["size"], (int, float, str))]
-                if not valid_words:
-                    return "Untitled"
-                title_line = max(valid_words, key=lambda w: float(w["size"]))
-                return title_line["text"]
+                words = sorted(words, key=lambda w: -w.get("size", 0))
+                for word in words:
+                    text = word.get("text", "").strip()
+                    if len(text) > 5 and not text.isspace() and not text.isnumeric():
+                        return text
     except Exception as e:
-        print("⚠️ Skipping title extraction due to error:", e)
-        return "Untitled"
+        print("⚠️ Title extraction failed:", e)
 
-    return os.path.basename(pdf_path).replace(".pdf", "")
-
+    return "Untitled"
 
 def process_all_pdfs(input_dir, output_dir, model, encoder):
     for filename in os.listdir(input_dir):
@@ -75,12 +99,13 @@ def process_all_pdfs(input_dir, output_dir, model, encoder):
                 "title": title,
                 "outline": outline
             }
-            with open(os.path.join(output_dir, filename.replace(".pdf", ".json")), "w") as f:
-                json.dump(result, f, indent=2)
+            output_path = os.path.join(output_dir, filename.replace(".pdf", ".json"))
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(result, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
-    input_dir = "/app/input"
-    output_dir = "/app/output"
+    input_dir = "sample_dataset/pdfs"
+    output_dir = "sample_dataset/outputs"
     os.makedirs(output_dir, exist_ok=True)
     model, encoder = load_model()
     process_all_pdfs(input_dir, output_dir, model, encoder)
